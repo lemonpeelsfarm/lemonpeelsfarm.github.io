@@ -26,14 +26,19 @@ header {
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2em;
 }
 
 header p {
     margin: 5px 0 0 0;
+    font-size: 1.2em;
 }
 
 main {
@@ -51,6 +56,7 @@ h2 {
 
 .gallery-images {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
@@ -97,3 +103,23 @@ footer a:hover {
     height: 700px;
     border: 0;
 }
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .gallery-images img {
+        width: 100%;
+    }
+
+    .header-text {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+}
+
