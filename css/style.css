@@ -1,0 +1,60 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+header h1 {
+    margin: 10px 0 0 0;
+}
+
+header p {
+    margin: 5px 0 20px 0;
+}
+
+section#gallery {
+    text-align: center;
+    padding: 20px;
+}
+
+section#gallery img {
+    max-width: 45%;
+    margin: 10px;
+    height: auto;
+}
+
+section#social-media {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
